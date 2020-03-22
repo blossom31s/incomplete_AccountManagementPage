@@ -1,5 +1,15 @@
-DATABASE : jobtest
+# Version
+Java : 12.0.1
+Eclipse : 2019-12
+Tomcat : 8.5.51
+jquery-3.4.1.min.js
+Bootstrap : 4.4.1
+popper.min.js(2.1.0)
+MySQL : 8.0.19
+MySQL Connector/J : 8.0.19
 
+# MySQL Database
+// Database Name : DATABASE : jobtest
 CREATE TABLE CUSTOM (
   BUSI_NUM VARCHAR(20) not null,
   CUSTOM VARCHAR(20) not null,
@@ -30,7 +40,6 @@ CREATE TABLE CUSTOM (
   PRIMARY KEY (BUSI_NUM),
   UNIQUE KEY uk_busi_num (BUSI_NUM)
 );
-
 CREATE TABLE ACCOUNT (
   BUSI_NUM CHAR(20) not null,
   FACTORY CHAR(20),
